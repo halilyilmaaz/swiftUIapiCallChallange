@@ -11,6 +11,10 @@
 		9D902331283B67CE00811DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D902330283B67CE00811DA7 /* ContentView.swift */; };
 		9D902333283B67D000811DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D902332283B67D000811DA7 /* Assets.xcassets */; };
 		9D902336283B67D000811DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D902335283B67D000811DA7 /* Preview Assets.xcassets */; };
+		9D90233D283B680300811DA7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D90233C283B680300811DA7 /* UserModel.swift */; };
+		9D90233F283B691100811DA7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D90233E283B691100811DA7 /* UserViewModel.swift */; };
+		9D902341283B711500811DA7 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D902340283B711500811DA7 /* UsersView.swift */; };
+		9D902345283B72CB00811DA7 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D902344283B72CB00811DA7 /* UserCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		9D902330283B67CE00811DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D902332283B67D000811DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D902335283B67D000811DA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D90233C283B680300811DA7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9D90233E283B691100811DA7 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		9D902340283B711500811DA7 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		9D902344283B72CB00811DA7 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				9D902330283B67CE00811DA7 /* ContentView.swift */,
 				9D902332283B67D000811DA7 /* Assets.xcassets */,
 				9D902334283B67D000811DA7 /* Preview Content */,
+				9D90233C283B680300811DA7 /* UserModel.swift */,
+				9D90233E283B691100811DA7 /* UserViewModel.swift */,
+				9D902340283B711500811DA7 /* UsersView.swift */,
+				9D902344283B72CB00811DA7 /* UserCard.swift */,
 			);
 			path = swiftUIapiCallChallange;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D902341283B711500811DA7 /* UsersView.swift in Sources */,
 				9D902331283B67CE00811DA7 /* ContentView.swift in Sources */,
+				9D90233F283B691100811DA7 /* UserViewModel.swift in Sources */,
+				9D90233D283B680300811DA7 /* UserModel.swift in Sources */,
+				9D902345283B72CB00811DA7 /* UserCard.swift in Sources */,
 				9D90232F283B67CE00811DA7 /* swiftUIapiCallChallangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
